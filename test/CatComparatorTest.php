@@ -1,9 +1,12 @@
 <?php
 
 
-namespace Eden\Tests\Builders;
+namespace CatComparator\Tests;
 
 
+use CatComparator\Cat;
+use CatComparator\CatBuilder;
+use CatComparator\CatComparator;
 use PHPUnit\Framework\TestCase;
 
 class CatComparatorTest extends TestCase
@@ -14,7 +17,6 @@ class CatComparatorTest extends TestCase
      */
     public function sameCats()
     {
-
         $builder = new CatBuilder();
         $builder->withNumberOfEyes(1);
         $cat1 = $builder->build();
