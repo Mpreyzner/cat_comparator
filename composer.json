@@ -8,9 +8,21 @@
         }
     ],
     "require": {
+        "php": ">=7.1",
         "beberlei/assert": "^3.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CatComparator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CatComparator\\Tests\\": "test/"
+        }
     }
 }
