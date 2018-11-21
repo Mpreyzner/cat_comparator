@@ -55,7 +55,7 @@ class CatBuilder
 
         if ($this->numberOfLimbs !== 4) {
             $limbsDelta = 4 - $this->numberOfLimbs;
-            for ($i = 0; $i <= $limbsDelta; $i++) {
+            for ($i = 0; $i < $limbsDelta; $i++) {
                 $cat->cutLimb();
             }
         }

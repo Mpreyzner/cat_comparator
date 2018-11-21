@@ -1,5 +1,6 @@
 <?php
 
+
 namespace CatComparator;
 
 
@@ -35,32 +36,4 @@ class Cat
         }
         $this->numberOfLimbs -= 1;
     }
-
-
-    public function getColor(): string
-    {
-        return $this->color;
-    }
-
-    public function getNumberOfEyes(): int
-    {
-        return $this->numberOfEyes;
-    }
-
-    public function getWeight(): float
-    {
-        return $this->weight;
-    }
-
-    public function getNumberOfLimbs(): int
-    {
-        return $this->numberOfLimbs;
-    }
-
-    public function hasTail(): bool
-    {
-        return $this->hasTail;
-    }
-
 }
-
